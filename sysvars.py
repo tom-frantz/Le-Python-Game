@@ -1,4 +1,4 @@
 class SystemVariables(object):
-    def __int__(self):
+    def __init__(self):
         self.fruit = ['Apples', 'Pears', 'Plums']
         self.vegetables = ['Corn', 'Potato', 'Beans']
