@@ -1,8 +1,8 @@
 import random
 import sysvars
 sysvar = sysvars.SystemVariables()
-print('tom is feg')
-def main(sysvar):
+
+def scout(sysvar):
     print(''' what region would you like to explore:
 ( Town1, Town2, Town3, Town4, Town5 )''')
     region = input().lower()
@@ -23,13 +23,9 @@ def main(sysvar):
         loot = random.choice(sysvar.vegetables)
         print(loot)
 
-
-
     #loot = random.choice(['Food', 'Water', 'Medical supplies', 'Building supplies', 'scrap', 'nothing'])
     #print('You have found', loot)
     #return loot, inv
 
-
 main(sysvar)
 
-print('dummy')
