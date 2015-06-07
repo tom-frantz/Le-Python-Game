@@ -31,3 +31,5 @@ def main(sysvar):
 
 
 main(sysvar)
+
+print('dummy')
