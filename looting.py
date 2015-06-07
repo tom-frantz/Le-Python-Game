@@ -27,5 +27,5 @@ def scout(sysvar):
     #print('You have found', loot)
     #return loot, inv
 
-main(sysvar)
+scout(sysvar)
 
