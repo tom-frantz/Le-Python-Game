@@ -1,7 +1,7 @@
 import random
 import sysvars
 sysvar = sysvars.SystemVariables()
-
+print('tom is feg')
 def main(sysvar):
     print(''' what region would you like to explore:
 ( Town1, Town2, Town3, Town4, Town5 )''')
