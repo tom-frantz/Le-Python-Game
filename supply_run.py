@@ -7,12 +7,15 @@ def main():
     print('''You arrive at ''' + str(region) + ''' safely and begin to scout the area, you see:
 ( building1, building2, building3 )''')
     Building = input()
-    loot = random.choice(['Food', 'Water', 'Medical supplies', 'Building supplies', 'scrap', 'nothing'])
-    print('You have found', loot)
     zombies = random.choice(['yes', 'no'])
     if zombies == 'yes':
-            print('there are zombies around here, might be some good loot')
-    print('Do you want to go in')
+        print(" looks like there are some zombies around, might be some good loot")
+    elif zombies == 'no':
+        print('Looks clear of zeds, open season.. for everyone')
     loot_building = input()
+    loot = random.choice(['Food', 'Water', 'Medical supplies', 'Building supplies', 'scrap', 'nothing'])
+    print('You have found', loot)
+    return loot, inv
+
 
 main()
