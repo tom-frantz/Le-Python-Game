@@ -1,5 +1,6 @@
 import random
 import sysvars
+import zombies
 sysvar = sysvars.SystemVariables()
 
 def scout(sysvar):
@@ -11,7 +12,7 @@ def scout(sysvar):
     Building = input()
     zombies = random.choice(['yes', 'no'])
     if zombies == 'yes':
-        print(" looks like there are some zombies around, might be some good loot")
+        zombies.loot_zombies():
     elif zombies == 'no':
         print('Looks clear of zeds, open season.. for everyone')
     loot_building = input()
