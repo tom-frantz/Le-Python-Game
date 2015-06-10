@@ -12,7 +12,7 @@ def scout(sysvar):
     Building = input()
     zombies = random.choice(['yes', 'no'])
     if zombies == 'yes':
-        zombies.loot_zombies():
+        zombies.loot_zombies()
     elif zombies == 'no':
         print('Looks clear of zeds, open season.. for everyone')
     loot_building = input()
