@@ -12,3 +12,4 @@ class SystemVariables(object):
         self.Romsey = ['Police station', 'Hospital', 'Residence', 'Residence', 'Residence', 'Residence', 'Town hall']
         self.Woodend = ['Police station', 'Hospital', 'Residence', 'Residence', 'Residence', 'Residence', 'Town hall']
         self.Sunbury = ['Police station', 'Hospital', 'Residence', 'Residence', 'Residence', 'Residence', 'Town hall']
+        self.Towns = ['Romsey', 'Woodend', 'Sunbury']
