@@ -9,3 +9,6 @@ class SystemVariables(object):
         self.crafting_misc = ['Components', 'Electronic parts', 'Parts', 'Scrap metal']
         self.luxuries = ['Batteries', 'Gems', 'Jewelry', 'Money', 'Toilet Paper']
         self.damon = ['Damon']
+        self.Romsey = ['Police station', 'Hospital', 'Residence', 'Residence', 'Residence', 'Residence', 'Town hall']
+        self.Woodend = ['Police station', 'Hospital', 'Residence', 'Residence', 'Residence', 'Residence', 'Town hall']
+        self.Sunbury = ['Police station', 'Hospital', 'Residence', 'Residence', 'Residence', 'Residence', 'Town hall']
