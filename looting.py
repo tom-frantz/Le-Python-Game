@@ -4,10 +4,9 @@ import zombies
 sysvar = sysvars.SystemVariables()
 
 def scout(sysvar):
-    print(''' what region would you like to explore:
-( Town1, Town2, Town3, Town4, Town5 )''')
+    print('what region would you like to explore' + sysvar.towns)
     region = input().lower()
-    print('You arrive at  + str(region)' + 'safely and begin to scout the area, you see' + random.choice[])
+    print('You arrive at' + str(region) + 'safely and begin to scout the area, you see' + sysvar.towns)
     Building = input()
     enemy_zombies = random.choice(['yes', 'no'])
     if enemy_zombies == 'yes':
@@ -26,6 +25,5 @@ def scout(sysvar):
     # loot = random.choice(['Food', 'Water', 'Medical supplies', 'Building supplies', 'scrap', 'nothing'])
     # print('You have found', loot)
     # return loot, inv
-
-scout(sysvar)
+    scout(sysvar)
 
