@@ -10,3 +10,4 @@ class SystemVariables(object):
         self.luxuries = ['Batteries', 'Gems', 'Jewelry', 'Money', 'Toilet Paper']
         self.damon = ['Damon']
         self.Towns = ['Romsey', 'Woodend', 'Sunbury']
+        self.Buildings = ['Cop shop', 'Hospital', 'Residence']
