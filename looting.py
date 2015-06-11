@@ -6,7 +6,7 @@ sysvar = sysvars.SystemVariables()
 def scout(sysvar):
     print('what region would you like to explore' + sysvar.towns)
     region = input().lower()
-    print('You arrive at' + str(region) + 'safely and begin to scout the area, you see' + sysvar.towns)
+    print('You arrive at' + str(region) + 'safely and begin to scout the area, you see' + print(sysvar.buildings))
     Building = input()
     enemy_zombies = random.choice(['yes', 'no'])
     if enemy_zombies == 'yes':
