@@ -77,14 +77,26 @@
 #
 #   If possible, we can update the base in 2-3 second ticks that allow for zeds to be moved and for the player to
 #   update the base further.
-#
-#
+# Now one challenge that will happen is that whenever something is entered the position of the already enter data will
+# shift, somewhere in the code we will have to account for this to keep the shape / alignment of the base intact
 #
 # This somehow aligns when printed
-base = ('''            y xxxxxxxxxxx y
+base = ('''#
+
+
+
+
+            y xxxxxxxxxxx y
             x             x
             x             x
             x             x
             x             x
-            y xxxxxxxxxxx y ''')
+            y xxxxxxxxxxx y
+
+
+
+
+
+ ''')
 print(base)
+
