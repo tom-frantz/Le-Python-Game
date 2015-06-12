@@ -8,10 +8,10 @@ def scout(sysvar):
     region = input().lower()
     print('You arrive at' + str(region) + 'safely and begin to scout the area, you see' + sysvar.buildings)
     Building = input()
-    enemy_zombies = random.choice(['yes', 'no'])
-    if enemy_zombies == 'yes':
-        enemy_zombies.loot_zombies()
-    elif enemy_zombies == 'no':
+    zombies = random.choice(['yes', 'no'])
+    if zombies == 'yes':
+        zombies.loot_zombies()
+    elif zombies == 'no':
         print('Looks clear of zeds, open season.. for everyone')
     loot_building = input()
     loot = random.choice(['fruit', 'veg'])
