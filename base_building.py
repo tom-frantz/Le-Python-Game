@@ -81,7 +81,7 @@
 # shift, somewhere in the code we will have to account for this to keep the shape / alignment of the base intact
 #
 # This somehow aligns when printed
-base = ('''#
+base = ('''
 
 
 
@@ -92,7 +92,6 @@ base = ('''#
             x             x
             x             x
             y xxxxxxxxxxx y
-
 
 
 
