@@ -75,6 +75,11 @@
 #                          #
 #
 #
+#   If possible, we can update the base in 2-3 second ticks that allow for zeds to be moved and for the player to
+#   update the base further.
+#
+#
+#
 # This somehow aligns when printed
 base = ('''            y xxxxxxxxxxx y
             x             x
