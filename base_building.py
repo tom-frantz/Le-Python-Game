@@ -61,7 +61,7 @@
 #
 #
 #
-#
+# This somehow aligns when printed
 base = ('''            y xxxxxxxxxxx y
             x             x
             x             x
