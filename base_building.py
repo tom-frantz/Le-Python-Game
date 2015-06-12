@@ -59,20 +59,20 @@
 # This way we can display the zombies and surrounding areas in a basic form until we implement a UI and visuals
 #
 #
-#
-#
-#
+#                       #
+#            #
+#                   #
 #
 #            y xxxxxxxxxxx y
-#            x             x
-#            x             x
-#            x             x
-#            x             x
+#    #       x             x         #
+#            x             x               #
+#   #        x             x         #
+#     #      x             x            #
 #            y xxxxxxxxxxx y
 #
-#
-#
-#
+#            #
+#                  #
+#                          #
 #
 #
 # This somehow aligns when printed
