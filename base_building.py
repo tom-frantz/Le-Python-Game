@@ -54,7 +54,21 @@
 #   Any walls that were put in place before this will be kept as interior walls
 #
 #
+# As we continue building this we will need to make is easy to replicate this code wise,
+# I'm think we use the method but with white space double that in each direction plus the space between them
+# This way we can display the zombies and surrounding areas in a basic form until we implement a UI and visuals
 #
+#
+#
+#
+#
+#
+#            y xxxxxxxxxxx y
+#            x             x
+#            x             x
+#            x             x
+#            x             x
+#            y xxxxxxxxxxx y
 #
 #
 #
