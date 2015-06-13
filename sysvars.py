@@ -8,4 +8,16 @@ class SystemVariables(object):
         self.weapon_craft = ['Pistol parts', 'Shotgun parts', 'Assult rifle parts', 'Sniper parts']
         self.crafting_misc = ['Components', 'Electronic parts', 'Parts', 'Scrap metal']
         self.luxuries = ['Batteries', 'Gems', 'Jewelry', 'Money', 'Toilet Paper']
-        self.damon = ['Damon']
+
+class Player():
+    def __init__(self):
+        self.inv = ['Damon']
+        self.hp = 10
+
+    def get_inv(self):
+        print(self.inv)
+
+class NPC1(Player):
+    def __init__(self):
+        super(NPC1, self).__init__()
+        self.hp = 20
