@@ -4,7 +4,7 @@ player = sysvars.Player()
 sysvar = sysvars.SystemVariables()
 
 def loot_zombies():
-    zombie_amount = random.randint(1,21) # What amount of zombies there are. Roll is the amount of zombies
+    zombie_amount = random.randint(1, 21)  # What amount of zombies there are. Roll is the amount of zombies
     if zombie_amount == 21:
         print('There\'s a lot of dead zombies around . . . Only a few remain behind, do you want to go look for loot?')
     else:
