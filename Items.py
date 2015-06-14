@@ -12,7 +12,7 @@ class ItemLists(object):
 
 
 class PlaceLists(object):
-    def __init__(self)
+    def __init__(self):
         self.Towns = ['Romsey', 'Woodend', 'Sunbury']
         self.Buildings = ['Cop shop', 'Hospital', 'Residence']
 
