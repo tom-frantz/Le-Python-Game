@@ -1,7 +1,5 @@
 import random
-import sysvars
-player = sysvars.Player()
-sysvar = sysvars.SystemVariables()
+import items
 
 def loot_zombies():
     zombie_amount = random.randint(1, 21)  # What amount of zombies there are. Roll is the amount of zombies
@@ -14,7 +12,7 @@ def loot_zombies():
     if loot_check == 'no' or loot_check == 'n':
         return
     else:
-        player.inv.append(sysvars.fruit[0])
+        player.inv.append(items.fruit[0])
         print('''Do you want to engage the zombies at a long range or move in closer?
 ( Range, Melee )''')
         combat_distance = input().lower()

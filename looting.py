@@ -1,29 +1,29 @@
 import random
-import sysvars
+import items
 import zombies
-sysvar = sysvars.SystemVariables()
+places = items.PlaceLists()
+buildings = items.BuildingLoots()
+items = items.ItemLists()
 
-def scout(sysvar):
-    print('what region would you like to explore' + sysvar.towns)
-    region = input().lower()
-    print('You arrive at' + str(region) + 'safely and begin to scout the area, you see' + sysvar.buildings)
-    Building = input()
-    zombies = random.choice(['yes', 'no'])
-    if zombies == 'yes':
-        zombies.loot_zombies()
-    elif zombies == 'no':
-        print('Looks clear of zeds, open season.. for everyone')
-    loot_building = input()
-    loot = random.choice(['fruit', 'veg'])
-    if loot == 'fruit':
-        loot = random.choice(sysvar.fruit)
-        print(loot)
-    elif loot == 'veg':
-        loot = random.choice(sysvar.vegetables)
-        print(loot)
 
-    # loot = random.choice(['Food', 'Water', 'Medical supplies', 'Building supplies', 'scrap', 'nothing'])
-    # print('You have found', loot)
-    # return loot, inv
-    scout(sysvar)
+def scout():
+    # Place check
 
+    print("Which town would you like to go into?")
+    print(places.towns)
+    town_choice = input().lower() + "_buildings"
+    print("")
+
+    # Building check
+
+    print("Which building would you like to go into?")
+    print(getattr(places, town_choice))  # I'll explain getattr in person or over skype call, is slight confusing
+    building_choice = input().lower()
+    print("")
+
+    # Zombie check ( To be done later, gonna get this running first )
+    # loot determination and add to inv
+
+    loot_catagory = random.choice(getattr(buildings, building_choice))
+    loot = random.choice(getattr(items, loot_catagory))
+    print("You found some", loot.lower() + ".")
