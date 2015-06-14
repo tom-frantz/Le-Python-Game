@@ -11,16 +11,16 @@ class SystemVariables(object):
         self.damon = ['Damon']
         self.Towns = ['Romsey', 'Woodend', 'Sunbury']
         self.Buildings = ['Cop shop', 'Hospital', 'Residence']
-        
-class Player():
-    def __init__(self):
-        self.inv = ['Damon']
-        self.hp = 10
 
-    def get_inv(self):
-        print(self.inv)
 
-class NPC1(Player):
-    def __init__(self):
-        super(NPC1, self).__init__()
-        self.hp = 20
+class Item(object):
+    def __init__(self, name, description, value):
+        self.name = name
+        self.description = description
+        self.value = value
+
+
+class Weapon(Item):
+    def __init__(self, name, description, value, damage):
+        super(Weapon, self).__init__(name, description, value)
+        self.damage = damage
