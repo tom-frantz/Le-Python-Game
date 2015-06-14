@@ -1,4 +1,4 @@
-class SystemVariables(object):
+class ItemLists(object):
     def __init__(self):
         self.fruit = ['Apples', 'Cherries', 'Grapes', 'Peach', 'Pears', 'Plums']
         self.vegetables = ['Beans', 'Broccoli', 'Cabbage', 'Carrots', 'Corn', 'Lettuce', 'Potatoes', 'Zucchini']
@@ -9,6 +9,10 @@ class SystemVariables(object):
         self.crafting_misc = ['Components', 'Electronic parts', 'Parts', 'Scrap metal']
         self.luxuries = ['Batteries', 'Gems', 'Jewelry', 'Money', 'Toilet Paper']
         self.damon = ['Damon']
+
+
+class PlaceLists(object):
+    def __init__(self)
         self.Towns = ['Romsey', 'Woodend', 'Sunbury']
         self.Buildings = ['Cop shop', 'Hospital', 'Residence']
 
