@@ -1,4 +1,4 @@
-import base_building
+import BaseBuilding
 import looting
 import inventory
 
@@ -8,7 +8,7 @@ menu_input = input().lower()
 print("")
 while menu_input != 'quit':
     if menu_input == 'b' or menu_input == 'base' or menu_input == 'base building' or menu_input == 'building':
-        base_building.main()
+        BaseBuilding.main()
     elif menu_input == 'scouting' or menu_input == 'scout':
         looting.scout()
     elif menu_input == 'supply' or menu_input == 'run' or menu_input == 'supply run':
