@@ -97,5 +97,4 @@ base = ('''
 
 
  ''')
-print(base)
 
