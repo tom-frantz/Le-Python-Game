@@ -1,6 +1,3 @@
-import items
-
-
 class Inventory(object):
     def __init__(self):
         self.inventory = []
@@ -37,6 +34,16 @@ class Inventory(object):
         for i in range(len(self.inventory)):
             print("%s: %s" % (str(x), str(self.inventory[i]).capitalize()))
             x += 1
+
+
+class Player(object):
+    def __init__(self):
+        self.hp = 100
+
+
+
+
+
 
 player_inv = Inventory()
 player_inv.add_inventory("apple")
