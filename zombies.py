@@ -1,5 +1,5 @@
 import random
-import items
+import Items
 
 def loot_zombies():
     zombie_amount = random.randint(1, 21)  # What amount of zombies there are. Roll is the amount of zombies

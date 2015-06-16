@@ -1,9 +1,9 @@
 import random
-import items
+import Items
 import zombies
-places = items.PlaceLists()
-buildings = items.BuildingLoots()
-items = items.ItemLists()
+places = Items.PlaceLists()
+buildings = Items.BuildingLoots()
+items = Items.ItemLists()
 
 
 def scout():
