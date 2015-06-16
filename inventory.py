@@ -1,4 +1,4 @@
-import items
+import Items
 
 
 class Inventory(object):
