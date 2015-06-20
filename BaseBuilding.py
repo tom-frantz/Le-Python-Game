@@ -1,4 +1,39 @@
-#
+# testing
+import Items
+import main
+import inventory
+
+class Defences:
+    def __init__(self):
+        pass
+
+
+class Power:
+    def __init__(self):
+        pass
+
+
+class Objects:
+    def __init__(self):
+        pass
+
+
+class Layout:
+    def __init__(self):
+        self.defult_layout('''
+
+
+
+            y xxxxxxxxxxx y
+            x             x
+            x             x
+            x             x
+            x             x
+            y xxxxxxxxxxx y
+
+
+
+    ''')
 #        Test of what base building should look like
 #
 #          Start with basic perimeter to define where you can build shit
@@ -80,21 +115,3 @@
 # Now one challenge that will happen is that whenever something is entered the position of the already enter data will
 # shift, somewhere in the code we will have to account for this to keep the shape / alignment of the base intact
 #
-# This somehow aligns when printed
-base = ('''
-
-
-
-
-            y xxxxxxxxxxx y
-            x             x
-            x             x
-            x             x
-            x             x
-            y xxxxxxxxxxx y
-
-
-
-
- ''')
-
